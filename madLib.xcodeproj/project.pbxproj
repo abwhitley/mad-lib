@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E99F53321D5D16C500FA0448 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E99F53311D5D16C500FA0448 /* main.c */; };
+		E99F534D1D5D1E9E00FA0448 /* Words.c in Sources */ = {isa = PBXBuildFile; fileRef = E99F534B1D5D1E9E00FA0448 /* Words.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		E99F532E1D5D16C500FA0448 /* madLib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = madLib; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99F53311D5D16C500FA0448 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E99F534B1D5D1E9E00FA0448 /* Words.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Words.c; path = ../Words.c; sourceTree = "<group>"; };
+		E99F534C1D5D1E9E00FA0448 /* Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Words.h; path = ../Words.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				E99F53311D5D16C500FA0448 /* main.c */,
+				E99F534B1D5D1E9E00FA0448 /* Words.c */,
+				E99F534C1D5D1E9E00FA0448 /* Words.h */,
 			);
 			path = madLib;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E99F53321D5D16C500FA0448 /* main.c in Sources */,
+				E99F534D1D5D1E9E00FA0448 /* Words.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
