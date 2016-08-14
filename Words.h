@@ -22,6 +22,28 @@ typedef enum Adjetive {
     
 } Adjetive;
 
+typedef enum Noun{
+    NounWolf = 1,
+    NounPineapple,
+    NounHouseElves,
+    NounNull = INT_MIN,
+    NounFirst = NounWolf,
+    NounLast = NounHouseElves
+    
+} Noun;
+
+typedef enum Verb{
+    VerbSprint = 1,
+    VerbEscape,
+    VerbFly,
+    VerbNull = INT_MIN,
+    VerbFirst = VerbSprint,
+    VerbLast = VerbFly
+    
+} Verb;
+
 char *StringFromAdjetive(Adjetive adjetive);
+char *StringFromNoun(Noun noun);
+char *StringFromVerb(Verb verb);
 
 #endif /* Words_h */

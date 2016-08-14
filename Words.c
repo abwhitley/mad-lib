@@ -25,3 +25,35 @@ char *StringFromAdjetive(Adjetive input ){
     }
     
 }
+
+char *StringFromNoun(Noun input){
+    switch (input) {
+        case NounWolf: {
+            return "Wolf";
+	        }
+        case NounPineapple: {
+            return "Pineapple";
+        }
+        case NounHouseElves: {
+            return "HouseElves";
+        }
+        default:
+            return NULL;
+    }
+}
+
+char *StringFromVerb(Verb input){
+    switch (input) {
+        case VerbSprint:{
+            return "Sprint";
+        }
+        case VerbEscape:{
+            return "Escape";
+        }
+        case VerbFly:{
+            return "Fly";
+        }
+        default:
+            return NULL;
+    }
+}
